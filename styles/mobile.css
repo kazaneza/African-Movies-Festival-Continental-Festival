@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
+
+:root{
+    --font-family: 'Lato', sans-serif;
+}
+body
+{background-image: url('../images/mobile-bck.png');
+margin: 0;
+}
+
+*{
+ 
+  box-sizing: border-box;
+  list-style: none;
+  outline: none;
+  border: none;
+}
+
+.navbar-container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px 18px 10px;
+    
+}
+
+.back-image{
+    width: 50px;
+}
+.headline-container{
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+    padding: 10px 10px 10px 10px;
+    
+    
+}
+
+.headline-subtitle h2{
+    font-family: var(--font-family);
+font-size: 32px;
+line-height: 10px;
+font-weight: 400;
+color: #ed5342;
+
+}
+
+.headline-title h1{
+    font-family: var(--font-family);
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+    background-image: linear-gradient(
+        45deg,
+        rgba(235, 71, 53, 0.939),
+        rgba(252, 44, 7, 0.6)
+      ),
+      url(../images/comp.png);
+      background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: contain;
+  margin-top: 0;
+  
+}
+.headline-paragraph{
+    font-family: var(--font-family);
+font-size: 17px;
+color: rgb(58, 58, 72);
+font-weight: 500;
+line-height: 27px;
+border: 5px solid white;
+padding: 0px 0px 0px 10px;
+
+}
+
+.headline-time{
+    font-family: var(--font-family);
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(58, 58, 72);
+}
+
+.headline-venue{
+    font-family: var(--font-family);
+    font-size: 25px;
+    color: rgb(58, 58, 72);
+    font-weight: 500;
+}
+
+.main-program{
+    background-image: url(../images/prog-bg-04.png);
+}
+.main-program-container {
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+    padding: 10px 10px 10px 10px;
+
+}
+.program-title h2{
+    text-align: center;
+    font-family: var(--font-family);
+    color: #fff;
+font-size: 32px;
+line-height: 10px;
+font-weight: 400;
+}
+.program{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: rgba(223, 223, 223, 0.11);
+    padding: 10px 10px 10px 10px;
+}
+
+.line{
+    width: 40px;
+  height: 2px;
+  display: flex;
+  background: #ed5342;
+  
+}
+
+.program-name h3{
+    color: #ed5342;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 40px;
+}
+.program-comment p{
+    color: #fff;
+line-height: 22px;
+font-family: var(--font-family);
+font-size: 16px;
+}
+
+.program-button{
+    color: #fff;
+    background-color: #ed5342;
+    padding: 10px 20px 10px 20px;
+    margin: 10px 20px 10px 20px;
+}
