@@ -137,8 +137,20 @@ font-size: 16px;
 }
 
 .program-button{
+    display: flex;
+    justify-content: center;
+}
+
+.program-button button{
     color: #fff;
     background-color: #ed5342;
     padding: 10px 20px 10px 20px;
-    margin: 10px 20px 10px 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 300px;
+    height: 60px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 15px;
 }
+
