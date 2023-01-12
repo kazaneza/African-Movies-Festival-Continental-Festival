@@ -85,7 +85,7 @@ After you're finished please remove all the comments and instructions!
 
 - [Live Demo Link](https://kazaneza.github.io/African-Movies-Festival-Continental-Festival/)
 
-- [Loom Video Link](https://www.loom.com/share/96f022c3bc3a42c48103ee0c4554bf0e)
+- [Loom Video Link](https://www.loom.com/share/6520d4922380490c81b4b85ab2fec03f)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
