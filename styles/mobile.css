@@ -15,6 +15,12 @@ margin: 0;
   outline: none;
   border: none;
 }
+.nav-header{
+    display: none;
+}
+.desktop-navbar{
+    display: none;
+}
 
 .navbar-container {
     display: flex;
@@ -104,6 +110,8 @@ padding: 0px 0px 0px 10px;
 font-size: 32px;
 line-height: 10px;
 font-weight: 400;
+margin-top: 90px;
+        padding-top: 55px;
 }
 .program{
     display: flex;
@@ -152,5 +160,129 @@ font-size: 16px;
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 15px;
+}
+
+.speakers container{
+    background-color: #fff;
+}
+
+.speakers {
+        /* width: 100%; */
+    /* height: 689px; */
+    /* margin-bottom: 280px; */
+    margin-top: -5px;
+    padding-top: 60px;
+    background-color: #fff;
+    padding: 0px 10px 0px 10px
+  }
+  
+  .speakers h2 {
+    margin-top: 20px; 
+    text-align: center;
+    color: #272a31;
+    font-size: 1rem;
+    padding-top: 40px;
+  }
+
+.speaker-area {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+  }
+  
+  .speakers-detail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .speakers-detail h3 {
+    font-size: 1rem;
+    margin-bottom: 0px;
+  }
+  
+  .speakers-detail .image {
+    width: 35%;
+    margin-top: 43px;
+    margin-bottom: 28px;
+  }
+  
+  .speakers-detail .image:hover {
+    transform: scale(1.3);
+  }
+  
+  .speakers-detail .col-2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-left: 20px;
+    width: 50%;
+  }
+  
+  .speakers-detail .col-2 span {
+    width: 20px;
+    height: 2px;
+    display: flex;
+    background: #ed5342;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .col-2{
+    margin: 0px;
+  }
+
+  .col-2 p {
+    font-size: 1rem;
+    margin-bottom: 0px;
+  }
+
+  .partners{
+    background-color: #071e26;
+    height: 30vh;
+}
+.partners-container{
+    margin-top: 12px;
+    display: flex;
+    flex-direction: row;
+    
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.partners h2{
+    padding-top: 21px;
+    color: #fff;
+    font-family: var(--font-family);
+    text-align: center;
+}
+
+.partners img{
+    width: 138px;
+}
+
+.footer{
+    background-color: #fff;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 34px 0px 34px 0px;
+}
+
+.footer-logo img{
+    width: 240px;
+}
+
+.copyyright p{
+font-family: var(--font-family);
+font-size: 12px;
+}
+.desktop-event{
+    display: none;
 }
 

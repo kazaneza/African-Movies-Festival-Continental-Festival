@@ -15,6 +15,12 @@ margin: 0;
   outline: none;
   border: none;
 }
+.nav-header{
+    display: none;
+}
+.desktop-navbar{
+    display: none;
+}
 
 .navbar-container {
     display: flex;
@@ -50,16 +56,7 @@ color: #ed5342;
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
-    /* background-image: linear-gradient(
-        45deg,
-        rgba(235, 71, 53, 0.939),
-        rgba(252, 44, 7, 0.6)
-      ),
-      url(../images/comp.png);
-      background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-size: contain; */
+    
   color: #f53f2b;
   margin-top: 0;
   text-align: center;
@@ -150,7 +147,7 @@ padding-right: 10px;
     padding-top: 19px;
 }
 
-.stories-container{
+ .stories-container{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -167,8 +164,11 @@ padding-right: 10px;
     margin-bottom: 0;
     
 }
+.desk-about-logo-title{
+    display: none;
+}
 
-.story-paragraph p {
+/* .story-paragraph p {
     font-family: var(--font-family);
 font-size: 16px;
 color: rgb(58, 58, 72);
@@ -192,9 +192,9 @@ line-height: 27px;
     background-size: cover;
     
     
-}
+}  */
 
-.year{
+/* .year{
     text-align: center;
     font-family: var(--font-family);
     font-weight: 600;
@@ -209,7 +209,43 @@ line-height: 27px;
     font-family: var(--font-family);
     font-weight: 400;
     color: #fff;
+} */
+
+.event-area {
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 19px 25px 20px;
+  }
+  
+  .event-pic {
+    margin-bottom: 25px;
+    text-align: center;
+    position: relative;
+    color: #fff;
+  }
+.pic-1{
+    width: 405px;
 }
+  .text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .text h5 {
+    font-size: 1.5rem;
+  }
+
+  .text p {
+    font-size: 1rem;
+  }
+  
+  .event-pic img {
+    width: 100%;
+  }
 
 .partners{
     background-color: #071e26;
@@ -255,3 +291,7 @@ line-height: 27px;
 font-family: var(--font-family);
 font-size: 12px;
 }
+.desktop-event{
+    display: none;
+}
+
