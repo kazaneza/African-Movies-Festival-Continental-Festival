@@ -30,7 +30,6 @@
 
 > African Movie festival is aimed to showcase African ability to produce their own movies, and recognizing Africans film makers
 
-**[African Movies Festival 2023]** is aimed to showcase African ability to produce their own movies, and recognizing Africans film makers
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -91,9 +90,8 @@ JAVASCRIPT
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> 
-
-To get a local copy up and running, follow these steps.
+>To get a local copy up and running, follow these steps.
+ 
 
 ### Prerequisites
 
@@ -143,7 +141,7 @@ To run the project
 
 ### Run tests
 
-T
+
 
 ### Deployment
 
@@ -205,7 +203,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
- I would like to thank Cindy Shin in Behance for the amazing UX
+ > I would like to thank Cindy Shin in Behance for the amazing UX
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -214,15 +212,15 @@ Feel free to check the [issues page](../../issues/).
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
->
 
-- **[how_to_clone_the_project?]**
+
+- **[how to clone the project?]**
 
   - [git_clone_https://github.com/kazaneza/African-Movies-Festival-Continental-Festival]
 
-- **[How_to_run_project]**
+- **[How to run project]**
 
-  - [use_chrome]
+  - [use chrome]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
