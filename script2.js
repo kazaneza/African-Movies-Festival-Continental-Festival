@@ -8,5 +8,5 @@ hamburger.onclick = function showMenu() {
   mobileMenu.style.display = 'block';
 };
 closeBtn.onclick = function closeMenu() {
-  mobileMenu.style.display = none = 'none';
+  mobileMenu.style.display = none = 'none'; // eslint-disable-line
 };
