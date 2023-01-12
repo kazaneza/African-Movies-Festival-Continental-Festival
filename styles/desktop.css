@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
 
 
-:root{
+:root {
     --font-family: 'Lato', sans-serif;
 }
 
@@ -10,10 +10,11 @@ head {
     background-color: rgb(58, 58, 72);
 }
 
-.nav-logo{
+.nav-logo {
     display: none;
 }
-.nav-header{
+
+.nav-header {
     background-color: rgb(58, 58, 72);
     padding: 0px 130px 0px 130px;
     display: flex;
@@ -21,38 +22,39 @@ head {
     align-items: center;
     justify-content: flex-end;
     height: 50px;
-    
+
     position: fixed;
     width: 100%;
 
 }
 
-.nav-header ul{
+.nav-header ul {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     gap: 15px;
     margin: 0px;
     height: 30px;
-    
-        
+
+
 }
+
 /* .nav-header{
     display: none;
 } */
-.nav-header img{
-    width:  23px;
+.nav-header img {
+    width: 23px;
     padding: 0;
 }
 
-.nav-header h2{
+.nav-header h2 {
     font-family: var(--font-family);
     font-size: 12px;
     font-weight: 400;
     color: #fff;
 }
 
-.desktop-navbar{
+.desktop-navbar {
     background-color: #fff;
     display: flex;
     justify-content: space-between;
@@ -65,162 +67,178 @@ head {
 
 }
 
-.desktop-logo img{
+.desktop-logo img {
     width: 120px;
 }
 
-.navbar-pages ul{
+.navbar-pages ul {
     display: flex;
+    align-items: center;
     gap: 46px;
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
     color: rgb(58, 58, 72);
 }
-.navbar-pages ul li{
+
+.navbar-pages ul li {
     font-family: var(--font-family);
     font-weight: 400;
     list-style: none;
     color: rgb(58, 58, 72);
 
 }
-.navbar-button{
+
+.navbar-button {
     margin: 0px 0px 0px 69px;
 }
 
-.headline{
+.headline {
     padding: 0px 130px 0px 130px;
+    height: 100vh;
 }
 
-.headline-container{
+.headline-container {
     width: 90%;
 }
- .headline-subtitle h2{
+
+.headline-subtitle h2 {
     font-family: var(--font-family);
     font-size: 42px;
     line-height: 10px;
     font-weight: 400;
     color: #ed5342;
-    }
+}
 
-    .headline-title h1{
-        font-family: var(--font-family);
-        font-size: 70px;
+.headline-title h1 {
+    font-family: var(--font-family);
+    font-size: 70px;
     font-weight: 700;
     line-height: 70px;
-        background-image: linear-gradient(
-            45deg,
+    background-image: linear-gradient(45deg,
             rgba(235, 71, 53, 0.939),
-            rgba(252, 44, 7, 0.6)
-          ),
-          url(../images/comp.png);
-          background-clip: text;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-size: contain;
-      margin-top: 84px;
-      
-    }
+            rgba(252, 44, 7, 0.6)),
+        url(../images/comp.png);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: contain;
+    margin-top: 84px;
 
-    .headline-time h3 {
-        font-size: 25px;
-        margin-bottom: 0px;
-    }
+}
 
-    .headline-venue p{
-        font-size: 20px;
-        margin-top: 0px;
-    }
+.headline-time h3 {
+    font-size: 25px;
+    margin-bottom: 0px;
+}
 
-    .main-program{
-        padding: 0px 130px 0px 130px;
-    }
+.headline-venue p {
+    font-size: 20px;
+    margin-top: 0px;
+}
 
-    .main-program-container{
-        display: grid;
-        grid-template-columns: repeat(5, 1fr);
-    }
+.main-program {
+    padding: 0px 130px 0px 130px;
+}
 
-    .program-title{
-        padding-top: 74px;
-        
-    }
-    .program-title h2 {
-        text-align: center;
-        font-family: var(--font-family);
-        color: #fff;
-        font-size: 32px;
-        line-height: 10px;
-        font-weight: 400;
-        margin-top: 4px;
-        padding-top: 1px;
-    }
+.main-program-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
 
-    .program{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
+.program-title {
+    padding-top: 74px;
 
-    .program-name h3{
-        margin-top: 0px;
-        margin-bottom: 0px;
-    }
+}
 
-    .program-comment p{
-        margin-top: 0px;
+.program-title h2 {
     text-align: center;
-    }
+    font-family: var(--font-family);
+    color: #fff;
+    font-size: 32px;
+    line-height: 10px;
+    font-weight: 400;
+    margin-top: 4px;
+    padding-top: 1px;
+}
 
-    .speakers {
-            /* width: 100%; */
+.program {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.program-name h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.program-comment p {
+    margin-top: 0px;
+    text-align: center;
+}
+
+.speakers {
+    /* width: 100%; */
     /* height: 689px; */
     /* margin-bottom: 280px; */
     background-color: #fff;
     padding: 0px 130px 0px 130px;
-    }
+}
 
-    .speakers h2 {
-        margin-top: 0px;
-        padding-top: 60px;
-        font-size: 1.8rem;
-        color: #272a31;
-    }
-    
-    
-      .speakers .line {
-        width: 70px;
-        left: 49%;
-      }
-    
-      .speaker-area {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(3, 1fr);
-        grid-column-gap: 40px;
-        grid-row-gap: 35px;
-        margin-top: 90px;
-      }
-    
-      .col-2 {
-        width: 50%;
-      }
-    
-      .speakers-detail {
-        gap: 10px;
-      }
-    
-      .speakers-detail .image {
-        width: 35%;
-      }
-    
-      .speakers-detail .col-2 h3 {
-        font-size: 1rem;
-      }
-    
-      .col-2 p {
-        font-size: 1rem;
-      }
+.speakers h2 {
+    margin-top: 0px;
+    padding-top: 60px;
+    font-size: 1.8rem;
+    color: #272a31;
+}
+
+
+.speakers .line {
+    width: 70px;
+    left: 49%;
+}
+
+.speaker-area {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 40px;
+    grid-row-gap: 35px;
+    margin-top: 90px;
+}
+
+.col-2 {
+    width: 50%;
+}
+
+.speakers-detail {
+    gap: 10px;
+}
+
+.speakers-detail .image {
+    width: 35%;
+}
+
+.speakers-detail .col-2 h3 {
+    font-size: 1rem;
+}
+
+.col-2 p {
+    font-size: 1rem;
+}
+
+.navbar-button {
+    border-style: solid;
+    border-color: #ed5342;
+    border-width: 4px;
+    padding: 0.5rem;
+}
+
+#on {
+    color: #ed5342;
+    font-weight: 400;
+}
