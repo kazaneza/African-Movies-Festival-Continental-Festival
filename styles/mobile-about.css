@@ -43,8 +43,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-
-
   padding: 10px 10px 10px 10px;
 }
 
@@ -207,46 +205,53 @@ body {
   width: 100%;
 }
 
+.footer-logo img {
+  width: 240px;
+}
+
+.main-menu img {
+  width: 5%;
+  float: right;
+  margin-top: 25px;
+}
+
 .partners {
   background: #272a31;
- 
- padding-top: 19px;
- padding-bottom: 30px;
- 
+  padding-top: 19px;
+  padding-bottom: 30px;
 }
 
 .partners-content h2 {
-margin-top: 10px;
-
-text-align: center;
-color: #fff;
-font-size: 1rem;
-font-weight: bold;
+  margin-top: 10px;
+  text-align: center;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
 }
 
 .lineb {
-width: 40px;
-height: 2px;
-display: flex;
-background: #ed5342;
-
-margin-bottom: 30px;
+  width: 40px;
+  height: 2px;
+  display: flex;
+  background: #ed5342;
+  margin-bottom: 30px;
 }
 
 .partners-content .partners-logos {
-margin-top: -20px;
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
+  margin-top: -20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .partners-content .partners-logos img {
-width: 20%;
-margin-left: 30px;
-margin-top: 10px;
+  width: 20%;
+  margin-left: 30px;
+  margin-top: 10px;
 }
+
 .footer {
-  background-color: #fff;
+  background-color: #d3d3d3;
 }
 
 .footer-container {
@@ -254,10 +259,6 @@ margin-top: 10px;
   justify-content: space-around;
   align-items: center;
   padding: 34px 0 34px 0;
-}
-
-.footer-logo img {
-  width: 240px;
 }
 
 .copyyright p {
@@ -283,12 +284,6 @@ margin-top: 10px;
 
 .main-menu ul li {
   margin-top: 30px;
-}
-
-.main-menu img {
-  width: 5%;
-  float: right;
-  margin-top: 25px;
 }
 
 .main-menu a {

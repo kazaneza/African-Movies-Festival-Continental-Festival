@@ -72,5 +72,5 @@ hamburger.onclick = function showMenu() {
   mobileMenu.style.display = 'block';
 };
 closeBtn.onclick = function closeMenu() {
-  mobileMenu.style.display = none = 'none'; // eslint-disable-line
+  mobileMenu.style.display = 'none';
 };

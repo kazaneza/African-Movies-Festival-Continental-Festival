@@ -35,7 +35,6 @@ head {
   height: 30px;
 }
 
-
 .nav-header img {
   width: 23px;
   padding: 0;
@@ -110,16 +109,15 @@ a {
 
 .headline-title h1 {
   font-family: var(--font-family);
-    font-size: 90px;
-    font-weight: 700;
-    line-height: 90px;
-    background-image: linear-gradient( 45deg, rgba(235, 71, 53, 0.939), rgba(252, 44, 7, 0.6) ), url(../images/comp.png);
-    background-clip: var(--font-family);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-size: contain;
-    margin-top: 84px;
-    
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 90px;
+  background-image: linear-gradient(45deg, rgba(235, 71, 53, 0.939), rgba(252, 44, 7, 0.6)), url(../images/comp.png);
+  background-clip: var(--font-family);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: contain;
+  margin-top: 84px;
 }
 
 .headline-time h3 {
@@ -174,6 +172,10 @@ a {
   text-align: center;
 }
 
+.footer-logo img {
+  width: 361px;
+}
+
 .partners {
   width: 100%;
   height: 30vh;
@@ -194,6 +196,7 @@ a {
   width: 70px;
   left: 48%;
 }
+
 .partners-content .partners-logos {
   margin-top: -20px;
   display: flex;
@@ -208,9 +211,8 @@ a {
 }
 
 .speakers {
-    
-    background-color: #D3D3D3;
-    padding: 0 130px 46px 130px;
+  background-color: #d3d3d3;
+  padding: 0 130px 46px 130px;
 }
 
 .speakers h2 {
@@ -232,7 +234,6 @@ a {
   grid-row-gap: -3px;
   margin-top: 27px;
 }
-
 
 .col-2 {
   width: 50%;
@@ -260,14 +261,10 @@ a {
   font-weight: 400;
 }
 
-.footer-container{
+.footer-container {
   display: flex;
-    justify-content: flex-start;
-    gap: 8px;
-    align-items: center;
-    padding: 60px 6px 60px 128px;
-}
-
-.footer-logo img {
-  width: 361px;
+  justify-content: flex-start;
+  gap: 8px;
+  align-items: center;
+  padding: 60px 6px 60px 128px;
 }
