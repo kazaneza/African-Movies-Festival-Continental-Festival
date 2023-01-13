@@ -1,4 +1,4 @@
-/* eslint-disable */
+
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
 
 :root {
@@ -43,7 +43,7 @@ body {
   display: flex;
   flex-direction: column;
 
-  /* gap: 10px; */
+ 
   padding: 10px 10px 10px 10px;
 }
 
@@ -74,7 +74,7 @@ body {
   margin-top: 0;
 }
 
-/* eslint-disable */
+
 
 .headline-paragraph {
   font-family: var(--font-family);
@@ -106,7 +106,7 @@ body {
 
 .main-program-container {
   display: grid;
-  gap: 10px;
+  gap: 2px;
   justify-content: center;
   padding: 10px 10px 10px 10px;
 }
@@ -130,6 +130,11 @@ body {
   padding: 10px 10px 10px 10px;
 }
 
+.program:hover{
+  transform: scale(1);
+  border: solid 2px #fff;
+}
+
 .line {
   width: 40px;
   height: 2px;
@@ -141,7 +146,7 @@ body {
   color: #ed5342;
   font-family: var(--font-family);
   font-style: normal;
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 600;
   line-height: 40px;
 }
@@ -150,7 +155,7 @@ body {
   color: #fff;
   line-height: 22px;
   font-family: var(--font-family);
-  font-size: 16px;
+  font-size: 13px;
 }
 
 .program-button {
@@ -158,29 +163,39 @@ body {
   justify-content: center;
 }
 
-.program-button button {
+.program-button a {
+  color: #fff;
+  
+  padding: 10px 20px 10px 20px;
+  margin-top: 45px;
+  margin-bottom: 53px;
+  
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 17px;
+  text-decoration: underline;
+}
+
+.program-button a:hover{
   color: #fff;
   background-color: #ed5342;
   padding: 10px 20px 10px 20px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  width: 300px;
-  height: 60px;
+  margin-top: 45px;
+  margin-bottom: 53px;
+  
   font-family: var(--font-family);
-  font-weight: 400;
-  font-size: 15px;
+  font-weight: 500;
+  font-size:  17px;
+  text-decoration: none;
 }
 
 .speakers {
-  /* width: 100%; */
-
-  /* height: 689px; */
-
-  /* margin-bottom: 280px; */
-  padding: 0 10px 0 10px;
-  margin-top: -5px;
-  padding-top: 60px;
-  background-color: #fff;
+    
+    margin-bottom: -19px;
+    padding: 0 10px 28px 10px;
+    margin-top: -21px;
+    padding-top: -2px;
+    background-color: #d3d3d3;
 }
 
 .speakers h2 {
@@ -205,7 +220,7 @@ body {
 }
 
 .speakers-detail h3 {
-  font-size: 1rem;
+  font-size: 1.3rem;
   margin-bottom: 0;
 }
 
@@ -225,11 +240,11 @@ body {
 
 .speakers-detail .col-2 {
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  margin-top: 1rem;
-  margin-left: 20px;
-  width: 50%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 0rem;
+    margin-left: 20px;
+    width: 50%;
 }
 
 .speakers-detail .col-2 span {
@@ -246,29 +261,44 @@ body {
   margin-bottom: 0;
 }
 
+
 .partners {
-  background-color: #071e26;
-  height: 30vh;
+     background: #272a31;
+    
+    padding-top: 19px;
+    padding-bottom: 30px;
+    
 }
 
-.partners-container {
-  margin-top: 12px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.partners h2 {
-  padding-top: 21px;
-  color: #fff;
-  font-family: var(--font-family);
+.partners-content h2 {
+  margin-top: 10px;
+  
   text-align: center;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
 }
 
-.partners img {
-  width: 138px;
+.lineb {
+  width: 40px;
+  height: 2px;
+  display: flex;
+  background: #ed5342;
+  
+  margin-bottom: 30px;
+}
+
+.partners-content .partners-logos {
+  margin-top: -20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.partners-content .partners-logos img {
+  width: 20%;
+  margin-left: 30px;
+  margin-top: 10px;
 }
 
 .footer {
@@ -328,3 +358,4 @@ body {
 .main-menu a:hover {
   color: #ed5342;
 }
+
