@@ -93,6 +93,7 @@ a {
 .headline {
   padding: 0 130px 0 130px;
   height: 100vh;
+  margin-bottom: 50px;
 }
 
 .headline-container {
@@ -173,7 +174,12 @@ a {
 }
 
 .footer-logo img {
-  width: 361px;
+  width: 417px;
+}
+
+.copyyright p {
+  font-family: var(--font-family);
+  font-size: 15px;
 }
 
 .partners {

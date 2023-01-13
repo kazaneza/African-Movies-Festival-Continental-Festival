@@ -205,7 +205,12 @@ a {
 }
 
 .footer-logo img {
-  width: 361px;
+  width: 417px;
+}
+
+.copyyright p {
+  font-family: var(--font-family);
+  font-size: 15px;
 }
 
 .partners .partners-logos img {
